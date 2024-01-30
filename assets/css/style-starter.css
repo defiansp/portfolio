@@ -47,7 +47,7 @@ Author URL: http://w3layouts.com
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Poppins' 'serif';
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -68,7 +68,7 @@ section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -386,7 +386,7 @@ template {
 .h4,
 .h5,
 .h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', serif;
   line-height: 1.2;
 }
 
@@ -4605,6 +4605,7 @@ input[type="button"].btn-block {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
+  font-weight: 500;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -14015,7 +14016,7 @@ a.text-dark:focus {
 }
 
 :root {
-  --primary-color: #f3525a;
+  --primary-color: #FF6B00;
   --primary-dark: #172541;
   --secondary-color: #1545CB;
   --layer: rgba(0, 0, 0, 0.5);
@@ -14044,13 +14045,13 @@ a.text-dark:focus {
 }
 
 [data-theme="dark"] {
-  --primary-color: #f3525a;
+  --primary-color: #FF6B00;
   --primary-dark: #172541;
   --secondary-color: #1545CB;
   --layer: rgba(0, 0, 0, 0.65);
   --banner: linear-gradient(to right, rgb(4 10 21 / 56%), rgb(2 4 8 / 53%));
   --font-color: #c2c2c2;
-  --bg-color: #15273e;
+  --bg-color: #2b2b2b;
   --icon-red: #f3525a;
   --icon-blue: #6610f2;
   --icon-green: #00d280;
@@ -14063,7 +14064,7 @@ a.text-dark:focus {
   --nav-color: #fff;
   --dropdown-color: #121725;
   --iframe-filter: grayscale(100%);
-  --bg-grey: #102135;
+  --bg-grey: #3b3b3b;
   --bg-greydark: #112339;
   --bg-lightgrey: #112339;
   --bg-layer:rgb(0 0 0 / 75%);
@@ -14146,7 +14147,7 @@ h6 {
   margin: 0;
   padding: 0;
   color: var(--heading-color);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', serif;
   font-weight: 600;
 }
 
@@ -14229,7 +14230,7 @@ p.white {
   background: var(--primary-color);
   border: 1px solid transparent;
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', serif;
 }
 
 .btn-style.btn-white {
@@ -14240,8 +14241,8 @@ p.white {
 
 .btn-style:hover {
   color: #fff;
-  background-color: #f12e38;
-  border-color: #f0222d;
+  background-color: #2b2b22;
+  border-color: #2b2b2b;
 }
 
 .btn-outline {
@@ -14275,7 +14276,7 @@ p.white {
 .title-w3l span,
 .title-w3l.two span {
   font-weight: 400;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', serif;
 }
 
 .title-w3l.two {
@@ -14534,9 +14535,9 @@ header {
 
 .navbar .navbar-brand {
   margin: 0;
-  padding: 0;
-  font-size: 36px;
-  font-weight: 700;
+  padding: 5px 0;
+  font-size: 32px;
+  font-weight: 600;
   color: var(--heading-color);
 }
 
@@ -14788,8 +14789,8 @@ nav ul li a:hover {
 
   .navbar .navbar-brand {
     margin: 0;
-    padding: 0;
-    font-size: 32px;
+    padding: 5px 0;
+    font-size: 30px;
   }
 }
 
@@ -14925,7 +14926,7 @@ nav ul li a:hover {
   }
 
   .navbar .navbar-brand {
-    font-size: 30px !important;
+    font-size: 28px !important;
   }
 
   .mobile-position {
@@ -14941,7 +14942,7 @@ nav ul li a:hover {
   align-items: center;
   background-size: cover;
   -ms-background-size: cover;
-  background-image: var(--banner), url(../images/banner.jpg);
+  background-image: var(--banner), url(../images/wireframing.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -14957,12 +14958,12 @@ nav ul li a:hover {
   line-height: 68px;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', serif;
 }
 
 .w3l-banner h3.title span {
   font-weight: 400;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', serif;
 }
 
 .w3l-banner p.sample a {
@@ -15215,14 +15216,14 @@ span.title-small {
 .social-column-3 a.twitter{
   color:#1DA1F2;
 }
-.social-column-3 a.facebook{
-  color:#4267B2;
+.social-column-3 a.linkedin{
+  color:#0077B5;
 }
 .social-column-3 a.instagram{
-  color:#405DE6;
+  color:#dd2a7b;
 }
-.social-column-3 a.dribble{
-  color:#ea4c89;
+.social-column-3 a.behance{
+  color:#0084FF;
 }
 .social-column-3 a:hover {
   opacity:0.8;
